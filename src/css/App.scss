@@ -1,0 +1,121 @@
+.navbar_mis{
+    padding: 10px 0 0 10px;
+    height: 37px;
+    display: grid;
+    grid-template-columns: 85% auto;
+    background-color: rgb(69, 67, 67);
+    color:white;
+    border: none;
+    border-radius: 0 0 5px 5px ;
+    box-shadow: 0px 2px 5px grey;
+    position:fixed;
+    width: 100%;
+    a{
+        margin-top: -20px;
+        color: white;
+        text-decoration: none;
+    }
+    .menu_left{
+        
+        ul{
+            float: left;
+            margin-left: -30px;
+            margin-top: 0px;
+            li{
+                display: inline;
+                padding : 10px 5px 10px 5px;
+            }
+            li:hover{
+                background-color: rgb(99, 99, 99);
+                border :none;
+                border-radius: 5px;
+
+            }
+        }
+    }
+    .menu_right{
+        ul{
+            margin-top: 0px;
+            li{
+                display: inline;
+                padding : 10px 5px 10px 5px;
+            }
+        }
+    }
+}
+
+.body_content{
+    display: grid;
+    grid-template-columns: 15% auto;
+    background-color: rgb(233, 233, 233);
+    .leftbar{
+        padding-top: 70px;
+        height: 100vh;
+        background-color: rgb(240, 240, 240);
+        box-shadow: 2px 10px 20px rgb(136, 135, 135);
+        .logo{
+            img{
+                width: 100%;
+            }
+        }
+        .sous_menu{
+
+            .Texte_MIS_Dev{
+                font-size: 18px;
+                text-align: center;
+                color: red;
+            }
+            .titre{
+                margin-top: 10px;
+                padding: 10px;
+                color: rgba(124, 123, 173, 0.959);
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .menu{
+                ul{
+                    padding: 0;
+                    a{
+                        text-decoration : none;
+                    }
+                    li{
+                        list-style: none;
+                        color: rgb(113, 112, 201);
+                        padding: 10px;
+                    }
+                    li:hover{
+                        color: rgb(240, 240, 240);
+                        background-color: rgba(124, 123, 173, 0.973);
+                    }
+                    .selected{
+                        background-color: rgba(124, 123, 173, 0.959);
+                        color:white;
+                    }
+                }
+            }
+        }
+        
+    }
+
+    .container_chart{
+        width: 80%;
+        margin: 100px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.715);
+        box-shadow: 0 0 20px rgb(202, 202, 202);
+        border: 1px solid rgb(213, 213, 213) ;
+        transition: 1s;
+    }
+    .container_chart:hover, .content:hover{
+        box-shadow: 0 0 30px rgb(134, 134, 134);
+    }
+    .content{
+        width: 80%;
+        margin: 100px;
+        border: 1px solid rgb(213, 213, 213) ;
+        padding: 20px;
+        box-shadow: 0 0 20px rgb(202, 202, 202);
+        background-color: rgba(255, 255, 255, 0.715);
+        transition :1s;
+    }
+}
